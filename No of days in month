@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+  int x;
+  clrscr();
+  printf ("\nEnter a month number:");
+  scanf("%d",&x);
+  if(x==1,x==3,x==5,x==7,x==8,x==10,x==12)
+  printf("\nMonth=%d-31 days");
+  else if(x==2)
+  printf ("\nMonth=%d-28 or 29 days");
+  else
+  printf("\nMonth=%d-30 days");
+  getch();
+  }
+
+  
+
+  
+
+    
+ 
+   
+    
+   
+    
+        
+ 
+        
+        
+
+   
+     
+    
+
+
